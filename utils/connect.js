@@ -5,7 +5,7 @@ const pool = mysql.createPool({
   port: 3306,
   database: 'cms',
   user: 'root',
-  password: 'wangqin264..',
+  password: 'zhangweijie2418928628',
 })
 
 const query = (sql, cb) => {
