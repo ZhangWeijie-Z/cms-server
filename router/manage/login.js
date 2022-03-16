@@ -28,7 +28,7 @@ router.post('/', async (ctx) => {
         player: result1[0].player,
         editable: result1[0].editable,
       }
-      ctx.body = RM(200, '登陆成功', obj)
+      ctx.body = RM(200, '登录成功', obj)
     } else {
       // 账号密码错误 提示错误
       ctx.body = RM(401, '账号或者密码错误')
